@@ -14,7 +14,7 @@ public class AppInitializer extends Application {
         AnchorPane root = FXMLLoader.load(getClass().getResource("/view/MainScene.fxml"));
         Scene mainScene = new Scene(root);
         primaryStage.setScene(mainScene);
-        primaryStage.setTitle("WoW player");
+        primaryStage.setTitle("WOW player");
         primaryStage.centerOnScreen();
         primaryStage.show();
     }
